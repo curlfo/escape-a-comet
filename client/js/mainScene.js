@@ -286,9 +286,9 @@ export class MainScene extends Phaser.Scene {
                 toMove.push(ball);
             }
 
-            // if (ball.isCollided(this.comet)) {
-            //     this.isGameOver = true;
-            // }
+            if (ball.isCollided(this.comet)) {
+                this.isGameOver = true;
+            }
         });
 
         return toMove;
