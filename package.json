@@ -1,0 +1,28 @@
+{
+  "name": "belatra-test",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/curlfo/belatra-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/curlfo/belatra-test/issues"
+  },
+  "homepage": "https://gitlab.com/curlfo/belatra-test#readme",
+  "dependencies": {
+    "phaser": "^3.55.2",
+    "three": "^0.151.2",
+    "webpack": "^5.76.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
+}
